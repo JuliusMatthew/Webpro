@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            Div {
+              background-color: lightblue;    
+            }
+            </style>
+    </head>
+    <body>
+        <h1> Profil Pribadi</h1>
+        <!-- Membuat foto dan video dengan layout tabel 2x2 -->
+        <table>
+            <tr>
+                <th  width="350px" >Ini foto</th>
+                <th> ini video</th>
+            </tr>
+            <tr>
+                <th><img src="foto.png" alt="FotoProfil" width="250px"></th>
+                <th><video src="convert-6.mp4" type="video/mp4" height="250px" controls></video></th>
+            </tr>
+        </table>
+
+        <!-- membuat tentang saya berwarna di seoerti field head->style->Div -->
+        <div >
+            <h2> <b>Tentang saya</b> </h2>
+            <p>Hello world!</p>
+        </div>
+            
+
+        <br>
+
+        <!-- Membuat tabel dengan tr sebagai data horizontal, dan TH untuk header, dan td untuk datanya -->
+        <table>
+            <tr>
+                <th width="150">Keterampilan</th>
+                <th> Tingkat</th>
+            </tr>
+            <tr>
+                <td>Wepro</td>
+                <td>baru belajar</td>
+            </tr>
+            <tr>
+                <td>coding</td>
+                <td>pas-pasan</td>
+            </tr>
+        </table>
+
+
+        <!-- Membuat form yang akan dihubungkan dengan backend, dengan inputan text dan text area untuk memuat text yang lebih banyak dan saya menggunakan br untuk memberi jarak setiap inputnya sama saja sperti ln pada Println -->
+        <h2>Hubungi Saya</h2>
+        <form action="">
+            <label for="nama">Nama :</label>
+            <input type="text">
+            <br>
+            <label for="nama">Email :</label>
+            <input type="text">
+            <br>
+            <label for="nama">Pesan :</label>
+            <br>
+            <textarea name="Pesan" id="pesan" ></textarea>
+        </form>
+        
+        <br>
+        <button>Kirim</button>
+
+        <!-- tag a adalah tag yang dapat memuat link kedalam text, bisa juga kedalam gambar -->
+        <h2>Media Sosial</h2>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="yt.png" alt="yt" width="35"></a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Youtube</a>
+        
+    </body>
+</html>
